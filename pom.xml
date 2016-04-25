@@ -4,8 +4,8 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.serenity.alm</groupId>
-	<artifactId>name-provider</artifactId>
-	<version>1.28-SNAPSHOT</version>
+	<artifactId>name-provider-I</artifactId>
+	<version>1.00-SNAPSHOT</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
