@@ -47,7 +47,7 @@ public class NameProviderController {
 			DocumentBuilderFactory factory = DocumentBuilderFactory
 					.newInstance();
 			DocumentBuilder builder = factory.newDocumentBuilder();
-			InputStream is = getClass().getResourceAsStream("/META-INF/maven/com.serenity.alm/name-provider/pom.xml");
+			InputStream is = getClass().getResourceAsStream("/META-INF/maven/com.serenity.alm/name-provider-I/pom.xml");
 			if (is==null){
 				return "pom.xml not found!";
 			}else{
