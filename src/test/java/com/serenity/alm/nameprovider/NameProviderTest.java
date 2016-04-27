@@ -45,7 +45,7 @@ public class NameProviderTest {
 	private String baseUrl;
 
 	private StringBuffer verificationErrors = new StringBuffer();
-	protected static String seleniumGridURL = "http://srnalmjpre201.eng.gsnetcloud.corp:8080/wd/hub";
+	protected static String seleniumGridURL = "http://srnalmjpre201.eng.gsnetcloud.corp:4444/wd/hub";
 	protected static String seleniumBaseURL = "";
 
 	@Before
