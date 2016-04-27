@@ -54,7 +54,7 @@ public class NameProviderController {
 				Document doc = builder.parse(is);
 				XPathExpression xp = XPathFactory.newInstance().newXPath().compile("/project/version/text()");
 
-				return "Current '" + name + "' Version" +xp.evaluate(doc);
+				return "Current '" + name + "' Version: " +xp.evaluate(doc);
 
 			}
 			
