@@ -5,7 +5,7 @@
 
 	<groupId>com.serenity.alm</groupId>
 	<artifactId>name-provider-I</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
