@@ -18,7 +18,7 @@ import org.w3c.dom.Document;
 @EnableAutoConfiguration
 @RequestMapping("/")
 public class NameProviderController {
-	private static String name = "Serenity  ALM Workshop";
+	private static String name = "Serenity ALM";
 	private static String lastName = "Team";
 
 	@RequestMapping(method = RequestMethod.GET, value = "/name")
