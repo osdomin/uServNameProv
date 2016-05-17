@@ -1,4 +1,4 @@
-Test project for Serenity ALM<br>
+Test the project for Serenity ALM<br>
 GET calls:<br> 
     /version<br>
     /name<br>
