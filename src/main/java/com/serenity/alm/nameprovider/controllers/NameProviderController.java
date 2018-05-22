@@ -14,6 +14,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.w3c.dom.Document;
 
+/**
+ * Controller class with all methods
+ */
 @RestController
 @EnableAutoConfiguration
 @RequestMapping("/")
@@ -21,6 +24,10 @@ public class NameProviderController {
 	private static String name = "Serenity ALM";
 	private static String lastName = "Team";
 
+	/**
+	 * Return names
+	 * @return
+	 */
 	@RequestMapping(method = RequestMethod.GET, value = "/name")
 	private String getName() {
 		return name;
@@ -30,12 +37,18 @@ public class NameProviderController {
 	private String setName(String newName) {
 		return name;
 	}
-
+	/**
+	 * Returns lastName
+	 * @return
+	 */
 	@RequestMapping(method = RequestMethod.GET, value = "/lastName")
 	private String geLastName() {
 		return lastName;
 	}
-
+	/**
+	 * Returns the current date
+	 * @return
+	 */
 	@RequestMapping(method = RequestMethod.GET, value = "/date")
 	private String getDate() {
 		return new Date().toString();

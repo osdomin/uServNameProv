@@ -7,9 +7,9 @@ import com.serenity.alm.nameprovider.controllers.NameProviderController;
 
 @SpringBootApplication
 public class Application {
-
+    // Starts the controller
     public static void main(String[] args) {
-        SpringApplication.run(new Object[]{Application.class, NameProviderController.class}, args);
+        SpringApplication.run(NameProviderController.class, args);
     }
 
 }
