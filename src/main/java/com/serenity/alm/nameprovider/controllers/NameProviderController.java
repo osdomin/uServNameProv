@@ -59,7 +59,6 @@ public class NameProviderController {
 			}
 			
 		} catch (Throwable t) {
-			t.printStackTrace();
 			return t.toString();
 		}
 	}
