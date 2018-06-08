@@ -56,6 +56,11 @@ public class NameProviderTest {
 		String body = this.restTemplate.getForObject("/lastName", String.class);
 		assertThat(body).isEqualTo("Team");
 	}
+	@Test
+	public void testGetVersion() {
+		String body = this.restTemplate.getForObject("/version", String.class);
+		assertThat(body).isEqualTo("1.0");
+	}
 
 	@After
 	public void tearDown() throws Exception {

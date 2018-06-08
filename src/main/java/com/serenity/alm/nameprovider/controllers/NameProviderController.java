@@ -33,10 +33,15 @@ public class NameProviderController {
 		return name;
 	}
 
+	/**
+	 * Set names
+	 * @return
+	 */
 	@RequestMapping(method = RequestMethod.PUT, value = "/name")
 	private String setName(String newName) {
 		return name;
 	}
+
 	/**
 	 * Returns lastName
 	 * @return
@@ -45,6 +50,7 @@ public class NameProviderController {
 	private String geLastName() {
 		return lastName;
 	}
+
 	/**
 	 * Returns the current date
 	 * @return
@@ -54,6 +60,10 @@ public class NameProviderController {
 		return new Date().toString();
 	}
 
+	/**
+	 * Returns the version
+	 * @return
+	 */
 	@RequestMapping(method = RequestMethod.GET, value = "/version")
 	private String getVersion() {
 		try {
